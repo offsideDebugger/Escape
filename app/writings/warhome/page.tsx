@@ -1,6 +1,6 @@
 export default function Home() {
-    return <div className="bg-base h-screen flex font-headers">
-          <div className="mx-auto w-5xl p-6 sm:px-12 lg:px-16 border-x border-neutral-900 flex flex-col h-screen overflow-y-auto">
+    return <div className="bg-base min-h-screen flex font-headers">
+          <div className="mx-auto w-5xl p-6 sm:px-12 lg:px-16 border-x border-neutral-900 flex flex-col min-h-screen overflow-y-auto">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-accent mt-10 sm:mt-22 lg:mt-30">
               Escape
             </h1>
